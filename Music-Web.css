@@ -1,0 +1,180 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #2d545e;
+  /* width: 1250px; */
+}
+
+.nav-element {
+  text-align: right;
+  padding: 10px;
+  background-color: aqua;
+  border-radius: 20px;
+}
+
+.nav-element span {
+  margin-left: 10px;
+  margin-right: 10px;
+  border-radius: 5px;
+  padding: 10px;
+  font-weight: bold;
+  text-decoration-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.nav-element span:hover {
+  background-color: #ffa8B6;
+  border-radius: 10px;
+}
+
+.nav-element span:active {
+  opacity: 50%;
+}
+
+.logo {
+  width: 150px;
+  margin-top: 10px;
+
+}
+
+.logo-div {
+  text-align: center;
+  background-color: black;
+  display: block;
+  width: 200px;
+  border-radius: 20px;
+
+}
+
+.input-div {
+  text-align: center;
+
+}
+
+input {
+  padding: 5px;
+  border-radius: 10px;
+  align-content: center;
+  width: 300px;
+  margin-left: 20px;
+  margin-top: 10px;
+}
+
+.input-div button {
+  padding: 5px;
+  border-radius: 7px;
+  width: 80px;
+}
+
+.input-div button:hover {
+  background-color: #ffa8B6;
+  transform: scale(1.1);
+}
+
+.marquee {
+  background-color: #c89666;
+  border-radius: 10px;
+  margin-top: 5px;
+  padding: 10px;
+  font-size: large;
+  color: white;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.main-div1 {
+  display: inline-flex;
+}
+
+.main-div1-alldiv {
+  width: 180px;
+}
+
+.pic {
+  border-radius: 10px;
+  margin-left: 25px;
+}
+
+.artist-pic {
+  border-radius: 70px;
+  margin-left: 25px;
+}
+
+.artist-pic:hover {
+  transform: scale(1.1);
+}
+
+
+.pic:hover {
+  transform: scale(1.1);
+}
+
+.paragraph {
+  margin-left: 25px;
+  margin-top: 10px;
+  /* background-color: #a28089; */
+  width: 150px;
+  text-align: center;
+  border-radius: 5px;
+}
+
+
+.paragraph:hover {
+  background-color: #a28089;
+  transform: scale(1.1);
+  color: blue;
+  /* opacity: 50%; */
+}
+
+.latest-Song-Title {
+  font-size: 20px;
+  font-weight: bold;
+  color: white;
+  width: 200px;
+  height: 25px;
+  margin-left: 20px;
+}
+
+.footer-element li {
+  list-style: none;
+  display: inline;
+  margin-left: 20px;
+
+}
+
+footer {
+  text-align: right;
+}
+
+.main-down-div {
+  display: flex;
+  /* justify-content: space-between; */
+  border-radius: 5px;
+
+}
+
+.down-div1 {
+  width: 40%;
+  background-color: #c89f66;
+  margin-top: 5px;
+
+}
+
+.down-div2 {
+  width: 40%;
+  background-color: #c89f66;
+  margin-top: 5px;
+}
+
+.down-div3 {
+  width: 60%;
+  background-color: #c89f66;
+  margin-top: 5px;
+}
+
+ul {
+  list-style-type: none;
+
+}

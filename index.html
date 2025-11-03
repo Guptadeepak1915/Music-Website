@@ -5,193 +5,8 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Music Web Store</title>
-  <style>
-    body {
-      font-family: Arial, sans-serif;
-      background-color: #2d545e;
-      /* width: 1250px; */
-    }
-
-
-
-    .nav-element {
-      text-align: right;
-      padding: 10px;
-      background-color: aqua;
-      border-radius: 20px;
-
-
-    }
-
-    .nav-element span {
-      margin-left: 10px;
-      margin-right: 10px;
-      border-radius: 5px;
-      padding: 10px;
-      font-weight: bold;
-      text-decoration-style: none;
-
-
-    }
-    a{
-      text-decoration: none;
-      color: inherit;
-    }
-
-    .nav-element span:hover {
-      background-color: #ffa8B6;
-      border-radius: 10px;
-    }
-
-    .nav-element span:active {
-      opacity: 50%;
-    }
-
-    .logo {
-      width: 150px;
-      margin-top: 10px;
-
-    }
-
-    .logo-div {
-      text-align: center;
-      background-color: black;
-      display: block;
-      width: 200px;
-      border-radius: 20px;
-
-    }
-
-    .input-div {
-      text-align: center;
-
-    }
-
-    input {
-      padding: 5px;
-      border-radius: 10px;
-      align-content: center;
-      width: 300px;
-      margin-left: 20px;
-      margin-top: 10px;
-    }
-
-    .input-div button {
-      padding: 5px;
-      border-radius: 7px;
-      width: 80px;
-    }
-
-    .input-div button:hover {
-      background-color: #ffa8B6;
-      transform: scale(1.1);
-    }
-
-    .marquee {
-      background-color: #c89666;
-      border-radius: 10px;
-      margin-top: 5px;
-      padding: 10px;
-      font-size: large;
-      color: white;
-      font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    }
-
-    .main-div1 {
-      display: inline-flex;
-    }
-
-    .main-div1-alldiv {
-      width: 180px;
-    }
-
-    .pic {
-      border-radius: 10px;
-      margin-left: 25px;
-    }
-
-    .artist-pic {
-      border-radius: 70px;
-      margin-left: 25px;
-    }
-
-    .artist-pic:hover {
-      transform: scale(1.1);
-    }
-
-
-    .pic:hover {
-      transform: scale(1.1);
-    }
-
-    .paragraph {
-      margin-left: 25px;
-      margin-top: 10px;
-      /* background-color: #a28089; */
-      width: 150px;
-      text-align: center;
-      border-radius: 5px;
-    }
-
-
-    .paragraph:hover {
-      background-color: #a28089;
-      transform: scale(1.1);
-      color: blue;
-      /* opacity: 50%; */
-    }
-
-    .latest-Song-Title {
-      font-size: 20px;
-      font-weight: bold;
-      color: white;
-      width: 200px;
-      height: 25px;
-      margin-left: 20px;
-    }
-
-    .footer-element li {
-      list-style: none;
-      display: inline;
-      margin-left: 20px;
-
-    }
-
-    footer {
-      text-align: right;
-    }
-
-    .main-down-div {
-      display: flex;
-      /* justify-content: space-between; */
-      border-radius: 5px;
-
-    }
-
-    .down-div1 {
-      width: 40%;
-      background-color: #c89f66;
-      margin-top: 5px;
-
-    }
-
-    .down-div2 {
-      width: 40%;
-      background-color: #c89f66;
-      margin-top: 5px;
-    }
-
-    .down-div3 {
-      width: 60%;
-      background-color: #c89f66;
-      margin-top: 5px;
-    }
-
-    ul {
-      list-style-type: none;
-
-    }
-  </style>
+  <link rel="stylesheet" href="Music-Web.css">
+  
 </head>
 
 <body>
@@ -200,22 +15,19 @@
     <header class="header">
       <div clsss="nav-div">
         <nav class="nav-element">
-          
-            <div class="input-div">
-              <input type="text" placeholder="Serch Music">
-              <button>Search</button>
-            </div>
-            <div class="logo-div">
-              <img class="logo" src="musicweb\amazone-logo.svg" alt="Logo">
-            </div>
-
-            <span>Home</span>
-            <span>Music</span>
-            <span><a href="#artist-div">Artist</a></span>
-            <span><a href="#love-Song">Romantic Songs</a></span>
-            <span>Love Mashup</span>
-            <span>Motivation</span>
-          
+          <div class="input-div">
+            <input type="text" placeholder="Serch Music">
+            <button>Search</button>
+          </div>
+          <div class="logo-div">
+            <img class="logo" src="Images\amazone-logo.svg" alt="Logo">
+          </div>
+          <span>Home</span>
+          <span>Music</span>
+          <span><a href="#artist-div">Artist</a></span>
+          <span><a href="#love-Song">Romantic Songs</a></span>
+          <span>Love Mashup</span>
+          <span>Motivation</span>
         </nav>
       </div>
     </header>
@@ -223,34 +35,34 @@
     <p class="latest-Song-Title">Latest Songs</p>
     <div class="main-div1">
       <div class="main-div1-alldiv">
-        <img class="pic" src="musicweb/pic1.jpg" alt="Ajj ki Raat">
+        <img class="pic" src="Images/pic1.jpg" alt="Ajj ki Raat">
         <p class="paragraph"><b> Aaj Ki Raat</b></p>
       </div>
 
       <div class="main-div1-alldiv">
-        <img src="musicweb/pic2.jpg" alt="teri-meri-kahani" class="pic">
+        <img src="Images/pic2.jpg" alt="teri-meri-kahani" class="pic">
         <p class="paragraph"><b> Sanam Teri Kasam</b></p>
       </div>
 
       <div class="main-div1-alldiv">
-        <img src="musicweb/pic3.jpg" alt="Ram Siya Ram" class="pic" id="raam">
+        <img src="Images/pic3.jpg" alt="Ram Siya Ram" class="pic" id="raam">
         <p class="paragraph" id="raam"><b>Ram Siya Ram </b></p>
       </div>
 
       <div class="main-div1-alldiv">
-        <img src="musicweb/pic4.jpg" alt="Angaaron" class="pic">
+        <img src="Images/pic4.jpg" alt="Angaaron" class="pic">
         <p class="paragraph"><b>Angaaron</b></p>
       </div>
       <div class="main-div1-alldiv">
-        <img src="musicweb/pic5.jpg" alt="Akhiyan Gulab" class="pic">
+        <img src="Images/pic5.jpg" alt="Akhiyan Gulab" class="pic">
         <p class="paragraph"><b>Ankhiyan Gulab</b></p>
       </div>
       <div class="main-div1-alldiv">
-        <img src="musicweb/pic6.jpg" alt="Ratan Lambiya" class="pic">
+        <img src="Images/pic6.jpg" alt="Ratan Lambiya" class="pic">
         <p class="paragraph"><b>Ratan Lambiya</b></p>
       </div>
       <div class="main-div1-alldiv">
-        <img src="musicweb/pic7.jpg" alt="teri-meri-kahani" class="pic">
+        <img src="Images/pic7.jpg" alt="teri-meri-kahani" class="pic">
         <p class="paragraph"><b>Mujhko Irade De</b></p>
       </div>
 
@@ -260,34 +72,34 @@
     <p class="latest-Song-Title">Romantic Songs</p>
     <div id="love-Song" class="main-div1">
       <div class="main-div1-alldiv">
-        <img class="pic" src="musicweb/pic8.jpg" alt="Bekhayali">
+        <img class="pic" src="Images/pic8.jpg" alt="Bekhayali">
         <p class="paragraph"><b>Bekhayali</b></p>
       </div>
 
       <div class="main-div1-alldiv">
-        <img src="musicweb/pic9.jpg" alt="Main Yaha Hoon" class="pic">
+        <img src="Images/pic9.jpg" alt="Main Yaha Hoon" class="pic">
         <p class="paragraph"><b>Main Yaha Hoon</b></p>
       </div>
 
       <div class="main-div1-alldiv">
-        <img src="musicweb/pic10.jpg" alt="Gerua" class="pic">
+        <img src="Images/pic10.jpg" alt="Gerua" class="pic">
         <p class="paragraph"><b>Gerua(Dilwale) </b></p>
       </div>
 
       <div class="main-div1-alldiv">
-        <img src="musicweb/pic11.jpg" alt="Teri Meri Kahani" class="pic">
+        <img src="Images/pic11.jpg" alt="Teri Meri Kahani" class="pic">
         <p class="paragraph"><b>Teri Meri Kahani</b></p>
       </div>
       <div class="main-div1-alldiv">
-        <img src="musicweb/pic12.jpg" alt="sanam re" class="pic">
+        <img src="Images/pic12.jpg" alt="sanam re" class="pic">
         <p class="paragraph"><b>Sanam Re</b></p>
       </div>
       <div class="main-div1-alldiv">
-        <img src="musicweb/pic13.jpg" alt="Zalima" class="pic">
+        <img src="Images/pic13.jpg" alt="Zalima" class="pic">
         <p class="paragraph"><b>Zalima</b></p>
       </div>
       <div class="main-div1-alldiv">
-        <img src="musicweb/pic7.jpg" alt="teri-meri-kahani" class="pic">
+        <img src="Images/pic7.jpg" alt="teri-meri-kahani" class="pic">
         <p class="paragraph"><b>Mujhko Irade De</b></p>
       </div>
 
@@ -297,34 +109,34 @@
 
     <div class="main-div1">
       <div class="main-div1-alldiv">
-        <img class="pic" src="musicweb/bhojpuri1.jpg" alt="Palang Sagwaan ke " id="palang">
+        <img class="pic" src="Images/bhojpuri1.jpg" alt="Palang Sagwaan ke " id="palang">
         <p class="paragraph"><b>Palang Sagwaan Ke</b></p>
       </div>
 
       <div class="main-div1-alldiv">
-        <img src="musicweb/bhojpuri3.jpg" alt="Piya ji ke muski" class="pic" id="muski">
+        <img src="Images/bhojpuri3.jpg" alt="Piya ji ke muski" class="pic" id="muski">
         <p class="paragraph"><b>Piya Ji Ke Muski</b></p>
       </div>
 
       <div class="main-div1-alldiv">
-        <img src="musicweb/bhojpuri5.jpg" alt="Hari Hari Odhani" class="pic" id="odhani">
+        <img src="Images/bhojpuri5.jpg" alt="Hari Hari Odhani" class="pic" id="odhani">
         <p class="paragraph"><b>Hari Hari Odhani</b></p>
       </div>
 
       <div class="main-div1-alldiv">
-        <img src="musicweb/bhojpuri6.jpg" alt="Panche Ke Nache " class="pic" id="nache">
+        <img src="Images/bhojpuri6.jpg" alt="Panche Ke Nache " class="pic" id="nache">
         <p class="paragraph"><b>Panche Ke Nache </b></p>
       </div>
       <div class="main-div1-alldiv">
-        <img src="musicweb/pic12.jpg" alt="sanam re" class="pic">
+        <img src="Images/pic12.jpg" alt="sanam re" class="pic">
         <p class="paragraph"><b>Sanam Re</b></p>
       </div>
       <div class="main-div1-alldiv">
-        <img src="musicweb/pic13.jpg" alt="Zalima" class="pic">
+        <img src="Images/pic13.jpg" alt="Zalima" class="pic">
         <p class="paragraph"><b>Zalima</b></p>
       </div>
       <div class="main-div1-alldiv">
-        <img src="musicweb/pic7.jpg" alt="teri-meri-kahani" class="pic">
+        <img src="Images/pic7.jpg" alt="teri-meri-kahani" class="pic">
         <p class="paragraph"><b>Mujhko Irade De</b></p>
       </div>
     </div>
@@ -450,7 +262,7 @@
       </div>
     </div>
   </div>
- 
+
 </body>
 
 </html>
